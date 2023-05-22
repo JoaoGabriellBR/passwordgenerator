@@ -6,7 +6,7 @@
 
 <p>Gerador de senhas 🔑</p>
 
-[https://solartoy.netlify.app](https://sitepasswordgenerator.netlify.app)
+[https://sitepasswordgenerator.netlify.app](https://sitepasswordgenerator.netlify.app)
 
 ## 🛠 Tecnologias utilizadas
 
