@@ -3,12 +3,10 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 100%;
   height: 100vh;
-  border: 2px solid red;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  /* flex-wrap: wrap; */
 
   @media (max-width: 1000px) {
     flex-direction: column;
@@ -18,19 +16,20 @@ export const Container = styled.div`
 `;
 
 export const DivText = styled.div`
-  border: 2px solid blue;
   width: 40%;
   margin-left: 2rem;
 
   @media (max-width: 1000px) {
     width: 100%;
     margin-left: 0;
+    margin-bottom: 2rem;
   }
 
   p {
     font-weight: 600;
     padding: 0;
     margin: 0;
+    color: #fff;
 
     @media (max-width: 1000px) {
       text-align: center;
@@ -42,6 +41,7 @@ export const DivText = styled.div`
     font-size: 3rem;
     padding: 0;
     margin: 0;
+    color: #fff;
 
     @media (max-width: 1000px) {
       text-align: center;
@@ -50,7 +50,6 @@ export const DivText = styled.div`
 `;
 
 export const DivGenerator = styled.div`
-  border: 2px solid yellow;
   width: 60%;
   margin-right: 2rem;
   display: flex;
@@ -106,6 +105,7 @@ export const DivPassword = styled.div`
 `;
 
 export const DivCharacter = styled.div`
+width: 80%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -121,9 +121,9 @@ export const Button = styled.button`
   justify-content: center;
   align-items: center;
   border: none;
-  border-radius: 1rem;
-  background-color: #fccc04;
-  color: #242424;
+  border-radius: 3rem;
+  background-color: #584AD3;
+  color: #fff;
   font-weight: 600;
   font-size: 1.2rem;
   cursor: pointer;

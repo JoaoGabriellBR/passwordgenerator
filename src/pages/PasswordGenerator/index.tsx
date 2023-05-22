@@ -14,6 +14,11 @@ import Checkbox from "@mui/material/Checkbox";
 import { Slider, IconButton } from "@mui/material";
 
 export default function PasswordGenerator() {
+
+  let chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  let numbers = '0123456789';
+  let symbols = '!@#$%^&*()_+~`|}{[]\:;?><,./-=';
+
   const marks = [
     {
       value: 1,
@@ -26,32 +31,6 @@ export default function PasswordGenerator() {
     },
   ];
 
-  const passwordPower = [
-    {
-      value: "red",
-      label: "MUITO FRACA",
-    },
-
-    {
-      value: "red",
-      label: "FRACA",
-    },
-
-    {
-      value: "yellow",
-      label: "BOA",
-    },
-
-    {
-      value: "green",
-      label: "FORTE",
-    },
-
-    {
-      value: "darkblue",
-      label: "MUITO FORTE",
-    },
-  ];
 
   return (
     <>
@@ -73,7 +52,6 @@ export default function PasswordGenerator() {
                 </IconButton>
               </div>
             </DivPassword>
-
             <Button>Gerar senha</Button>
 
             <Slider
@@ -90,9 +68,17 @@ export default function PasswordGenerator() {
                 color: "#584AD3",
               }}
             />
+{/* 
+             <input
+          type="number"
+          min="4"
+          max="20"
+          value={length}
+          onChange={(e) => setLength(parseInt(e.target.value))}
+        /> */}
 
             <DivCharacter>
-              <p>Caracteres</p>
+              <p>Caracteres:</p>
               <FormGroup
                 sx={{
                   position: "flex",
@@ -103,18 +89,27 @@ export default function PasswordGenerator() {
                 }}
               >
                 <FormControlLabel
-                  control={<Checkbox defaultChecked />}
+                  control={
+                    <Checkbox style={{ color: "#584AD3" }} defaultChecked />
+                  }
                   label="ABC"
                 />
                 <FormControlLabel
-                  control={<Checkbox defaultChecked />}
+                  control={
+                    <Checkbox style={{ color: "#584AD3" }} defaultChecked />
+                  }
                   label="abc"
                 />
                 <FormControlLabel
-                  control={<Checkbox defaultChecked />}
+                  control={
+                    <Checkbox style={{ color: "#584AD3" }} defaultChecked />
+                  }
                   label="123"
                 />
-                <FormControlLabel control={<Checkbox />} label="#$&" />
+                <FormControlLabel
+                  control={<Checkbox style={{ color: "#584AD3" }} />}
+                  label="#$&"
+                />
               </FormGroup>
             </DivCharacter>
           </Generator>

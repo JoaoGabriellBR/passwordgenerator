@@ -8,8 +8,8 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body{
-        background-color: #584AD3;
-        color: #fff;
+        background-color: #040424;
+        color: #242424;
         font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
         overflow: hidden;
         height: 100vh;
