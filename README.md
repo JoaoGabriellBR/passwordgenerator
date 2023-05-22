@@ -1,5 +1,5 @@
 <div align="center">
-    <img width="350px" height="350px" src="https://user-images.githubusercontent.com/88870257/221100392-5fa4758b-fb67-436e-b2bb-5b7e7763a5a3.png">
+    <img width="200px" height="200px" src="https://github.com/JoaoGabriellBR/passwordgenerator/assets/88870257/9373baa6-b542-4f40-9472-9bc78d1c3010">
 </div>
 
 ## Sobre o Projeto
