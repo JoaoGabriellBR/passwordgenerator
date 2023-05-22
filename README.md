@@ -48,8 +48,24 @@ $ yarn add
 ```
 
 
-## Autor
+<!-- CONTACT -->
+## <h2>📧 Contato</h2>
 
-**João Gabriel da Silva Ferreira**
+Link do projeto: [https://sitepasswordgenerator.netlify.app](https://sitepasswordgenerator.netlify.app)
 
-https://www.linkedin.com/in/joaogabriel-silva
+<br>
+
+[![Email][Email]][Email-url]
+[![GitHub][GitHub]][GitHub-url]
+[![Linkedin][Linkedin]][Linkedin-url]
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[Email]: https://img.shields.io/badge/-gmail-black.svg?style=for-the-badge&logo=gmail&colorB=555
+[Email-url]: joaoname9@gmail.com
+
+[GitHub]: https://img.shields.io/badge/GitHub-0769AD?style=for-the-badge&logo=github&logoColor=white
+[GitHub-url]: https://github.com/JoaoGabriellBR
+
+[Linkedin]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[Linkedin-url]: https://www.linkedin.com/in/joaogabriel-silva
