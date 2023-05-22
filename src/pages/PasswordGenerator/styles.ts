@@ -50,7 +50,7 @@ export const DivText = styled.div`
 `;
 
 export const DivGenerator = styled.div`
-  width: 60%;
+  min-width: 60%;
   margin-right: 2rem;
   display: flex;
   flex-direction: row;
@@ -73,6 +73,11 @@ export const Generator = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 1000px) {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
 `;
 
 export const DivPassword = styled.div`
@@ -90,7 +95,10 @@ export const DivPassword = styled.div`
 
   p {
     font-weight: 900;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    letter-spacing: "0.2rem";
+    margin-right: "1rem";
+    max-width: 70%;
   }
 
   .div-copy {
@@ -105,11 +113,23 @@ export const DivPassword = styled.div`
 `;
 
 export const DivCharacter = styled.div`
-width: 80%;
+  width: 80%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+`;
+
+export const DivSlider = styled.div`
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (max-width: 1000px) {
+    flex-direction: column;
+  }
 `;
 
 export const Button = styled.button`
@@ -122,7 +142,7 @@ export const Button = styled.button`
   align-items: center;
   border: none;
   border-radius: 3rem;
-  background-color: #584AD3;
+  background-color: #584ad3;
   color: #fff;
   font-weight: 600;
   font-size: 1.2rem;
